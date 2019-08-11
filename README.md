@@ -19,10 +19,7 @@ product.
 ## Table of Contents
 
 - [API](mgmt/doc/api.md)
-
-[DarkDarkGo Design](mgmt/doc/DarkDarkGo.png)
-
-### Components
+[DarkDarkGo Design](mgmt/doc/DarkDarkGo.png)## Components
 
 - [Crawler:](crawler) Crawls the onion websites
 - [Index Builder:](indexer) Builds index chunk
