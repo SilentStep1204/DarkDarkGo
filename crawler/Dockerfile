@@ -3,7 +3,7 @@
 # matthewjones@bennington.edu
 FROM ubuntu:16.04
 
-MAINTAINER Matt Jones <"matthewjones@bennington.edu">
+ MAINTAINER Matt Jones <"matthewjones@bennington.edu">
 
 RUN apt-get update -y
 RUN apt-get install -y \
