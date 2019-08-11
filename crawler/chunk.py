@@ -33,7 +33,8 @@ class Chunk:
                 for document in self.documents:
                     for value in document['doc_header']:
                         f.write(value)
-                    f.write(document['doc_data'])
+                    item in document['doc_header']:
+                        f.write(item)
         else:
             raise Exception('Chunk does not exist')
 
