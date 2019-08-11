@@ -18,8 +18,7 @@ product.
 
 ## Table of Contents
 
-- [Architecture](#architecture)
-- [Testing](#testing)
+- [Architecture](@@ -37,6 +35,11 @@ product. [Testing](#testing)
 
 ## Architecture
 
