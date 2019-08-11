@@ -17,9 +17,8 @@ used as a foundation to add more interesting features and build a more complex
 product.
 
 ## Table of Contents
-
-- [Architecture](#architecture)
-- [Testing](#testing)
+- [API](mgmt/doc/api.md)
+- [Flow](mgmt/doc/flow.md)
 
 ## Architecture
 
