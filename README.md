@@ -19,9 +19,8 @@ product.
 ## Table of Contents
 
 - [API](mgmt/doc/api.md)
--[Testing]
-
-## Architecture
+- [Testing]
+# Architecture
 
 ![DarkDarkGo Design](mgmt/doc/DarkDarkGo.png)
 
