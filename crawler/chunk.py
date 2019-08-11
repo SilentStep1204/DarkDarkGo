@@ -1,47 +1,5 @@
-#!/usr/bin/env python3def __init__(self, import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-        #!/usr/bin/env python3def __init__(self, import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-        """ 
-		:"""" :"" in document['doc_header']:
-          Chunks are binary files. The last 20 bytes of a chunk is the header that can be used to seek to specific
-          documents in the chunk.
-"""
-import os
-import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-        """ in self.documents:item in document['doc_header']:
-
-class Chunk:
-    def __init__(self, import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-        """ in self.documents:item in document['doc_header']:
-:
-        self.chunk_id = chunk_id
-        self.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-        """ in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-        """
-        self.path = '/data/{0}'.format(chunk_id)  # './{}'.format(chunk_id)
-        self.documents = []
-        self.log = logging.getLogger()
-
-    def create_chunk(self):else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-        """
-        Given a chunk_id, create a new chunk file
-        :return: none
-        """
-        new_chunk = open(self.path, 'wb')
-        new_chunk.close()
-
-    def append_to_chunk(self):
-        """
-        Append documents to chunk, data appended includes document_header and crawler data.
-        :return: none
-        """
-        if os.path.exists(self.path):
++if
+ +os.path.exists(self.path):
             with open(self.path, 'ab') as f:
                 for document in self.documents:item in document['doc_header']:
                         f.write(item)
@@ -71,9 +29,7 @@ class Chunk:
                         f.write(item)
             # TODO: Move extra documents to new chunk
        #else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
-            #raise Exception('Max document count exceeded for chunk {}. Cannot append ')
-        return self.documents
+                        
 
     def append_header_to_chunk(self):
         """
