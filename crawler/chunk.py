@@ -54,7 +54,8 @@ class Chunk:
         #if len(self.documents) < 5:
         document in self.documents:item in document['doc_header']:
                         f.write(item)
-        #else:
+        #else:document in self.documents:item in document['doc_header']:
+                        f.write(item)
             # TODO: Move extra documents to new chunk
             # for now if crawler tries to add too many documents to a chunk an exception is raised
             #raise Exception('Max document count exceeded for chunk {}. Cannot append ')
