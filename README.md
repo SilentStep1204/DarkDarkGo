@@ -19,7 +19,7 @@ product.
 ## Table of Contents
 
 - [API](mgmt/doc/api.md)
-_ [Testing](#testing)
+- [Testing]
 
 ## Architecture
 
