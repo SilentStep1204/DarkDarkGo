@@ -19,7 +19,7 @@ product.
 ## Table of Contents
 
 - [Architecture](#architecture)
-- [Testing](#testing)
+- [Flow](mgmt/doc/flow.md)
 
 ## Architecture
 
