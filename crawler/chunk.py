@@ -5,7 +5,9 @@
           documents in the chunk.
 """
 import os
-import logging
+import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
+                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
+        """ in self.documents:item in document['doc_header']:
 
 class Chunk:
     def __init__(self, chunk_id):
