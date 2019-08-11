@@ -20,7 +20,7 @@ product.
 
 - [API](mgmt/doc/api.md)
 
-![DarkDarkGo Design](mgmt/doc/DarkDarkGo.png)
+[DarkDarkGo Design](mgmt/doc/DarkDarkGo.png)
 
 ### Components
 
