@@ -19,9 +19,7 @@ product.
 ## Table of Contents
 
 - [API](mgmt/doc/api.md)
-[DarkDarkGo Design](mgmt/doc/DarkDarkGo.png)## Components
-
-- [Crawler:](crawler) Crawls the onion websites
+- [DarkDarkGo Design](mgmt/doc/DarkDarkGo.png)## Components [Crawler:](crawler) Crawls the onion websites
 - [Index Builder:](indexer) Builds index chunk
 - [Index Server:](index-server) Stores replicated index chunk
 - [MGMT:](mgmt) Serves as single master, schedules jobs for other servers and executes
