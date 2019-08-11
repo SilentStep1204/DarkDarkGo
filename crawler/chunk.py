@@ -3,7 +3,8 @@
         #!/usr/bin/env python3def __init__(self, import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
                         f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
         """ in """" in self.documents:item in#!/usr/bin/env python3def __init__(self, import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
-                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised document['doc_header']:
+                        
+:"" in document['doc_header']:      f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised document['doc_header']     # for now if crawler tries to add too many documents to a chunk an exception is raised document['doc_header']:
 :"" in document['doc_header']:
 :"""" in self.documents:item in#!/usr/bin/env python3def __init__(self, import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
                   """ in """" in self.documents:item in#!/usr/bin/env python3def __init__(self, import loggingself.header = []self.header = []create_chunk(self):else:document in self.documents:item in document['doc_header']:
