@@ -52,7 +52,8 @@ class Chunk:
         doc_header = self.__compute_doc_header(link, title, html)
         document = {'doc_header': doc_header, 'doc_data': bin_data}
         #if len(self.documents) < 5:
-        self.documents.append(document)
+        document in self.documents:item in document['doc_header']:
+                        f.write(item)
         #else:
             # TODO: Move extra documents to new chunk
             # for now if crawler tries to add too many documents to a chunk an exception is raised
