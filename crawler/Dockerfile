@@ -3,28 +3,21 @@
 # matthewjones@bennington.edu
 FROM ubuntu:16.04
 
-MAINTAINER Matt Jones <"matthewjones@bennington.edu">
+ MAINTAINER Matt Jones <"matthewjones@bennington.edu">
 
-RUN apt-get update -y
+ COPY ./crawler /app/crawler
+COPY ./chunk_reader /app/crawler/chunk_reader
+
+ WORKDIR /app/crawler
+
+ RUN apt-get update -y
 RUN apt-get install -y \
     python3 \
     python3-pip \
-    tor \
-    nano
+    tor
 
-RUN mkdir /data
+ RUN mkdir /data
 
-COPY ./crawler /app/crawler
-COPY ./crawler/123 /data
-COPY ./chunk_reader /app/crawler/chunk_reader
+ RUN pip3 install -r dependencies.txt
 
-WORKDIR /app/crawler
-
-RUN pip3 install -r dependencies.txt
-RUN pip3 install requests[socks]
-
-EXPOSE 5000
-EXPOSE 9150
-
-CMD ["/app/crawler/crawler_script.sh"]
-
+ CMD ["/app/crawler/crawler_script.sh"]
