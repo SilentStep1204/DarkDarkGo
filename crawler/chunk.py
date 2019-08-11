@@ -30,7 +30,8 @@ class Chunk:
         """
         if os.path.exists(self.path):
             with open(self.path, 'ab') as f:
-                for document in self.documents:
+                for document in self.documents:item in document['doc_header']:
+                        f.write(item)
                     for value in document['doc_header']:
                         f.write(value)
                     item in document['doc_header']:
