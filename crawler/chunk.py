@@ -15,7 +15,8 @@ class Chunk:
         self.documents = []
         self.log = logging.getLogger()
 
-    def create_chunk(self):
+    def create_chunk(self):else:document in self.documents:item in document['doc_header']:
+                        f.write(item)     # for now if crawler tries to add too many documents to a chunk an exception is raised
         """
         Given a chunk_id, create a new chunk file
         :return: none
