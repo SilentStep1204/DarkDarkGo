@@ -18,8 +18,8 @@ product.
 
 ## Table of Contents
 
-- [Architecture](#architecture)
-- [Testing](#testing)
+- [API](mgmt/doc/api.md)
+ [Testing](#testing)
 
 ## Architecture
 
